@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+}
+:root {
+    --blue: #038cff;
+    --white: #ffffff;
+    --nevy_blue: #152961;
+    --red: #d55e6e;
+    --pink: #ffe8ee;
+    --light-green: #eaf9f4;
+    --light-yellow: #fef5e3;
+}
+.nav-link:hover {
+    color: var(--blue);
+}
+.blue {
+    color: var(--blue);
+}
+.heading_2 {
+    font-size: 45px;
+    color: var(--red);
+}
+.card_section .card-img-top {
+    /* width: 300px; */
+    height: 200px;
+}
+.card_section img {
+    width: 100%;
+}
+.card_section .card {
+    height: 380px;
+    cursor: pointer;
+}
+.card_section .card1 {
+    background-color: var(--pink);
+}
+.card_section .card2 {
+    background-color: var(--light-green);
+}
+.card_section .card3 {
+    background-color: var(--light-yellow);
+}
+
+footer {
+    background-color: var(--blue);
+    color: var(--white);
+}
+footer span {
+}
